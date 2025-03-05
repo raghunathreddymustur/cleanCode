@@ -1,1 +1,53 @@
+File1
 
+To make the variable name more meaningful, we can rename d to elapsedTimeInDays.
+ 
+File2
+
+To make the variable name more meaningful, we can rename dataFromDb to employeeList to clearly indicate that it holds a list of employees.
+ 
+File3
+
+To make the variable names more meaningful, we can rename them to better reflect their purpose.
+
+int counter;
+
+string fullName;
+
+DateTime modifiedDate;
+ 
+File4
+
+public bool IsShopOpen(string dayOfWeek, int numberOfItems)
+
+{
+
+    // some logic
+
+}
+ 
+File5
+
+1.	Renamed constants DAYS_IN_WEEK and daysInMonth to DaysInWeek and DaysInMonth to follow PascalCase convention.
+
+2.	Renamed variables songs and Artists to songTitles and artistNames for better clarity and consistency.
+
+3.	Renamed methods EraseDatabase and Restore_database to EraseDatabase and RestoreDatabase to follow PascalCase convention.
+
+4.	Renamed class animal to Animal to follow PascalCase convention and added inheritance to Alpaca class for better context.
+ 
+File6
+
+1.	Corrected the casing of Datetime to DateTime.
+
+2.	Renamed sWorkDate to StartWorkDate for better clarity.
+
+3.	Renamed modTime to ModificationTime for better clarity.
+ 
+File7
+
+1.	Specified the type for employeePhone as string.
+
+2.	Renamed the parameters workingdays and workinghours to workingDays and workingHours for better readability and consistency.
+
+ 
