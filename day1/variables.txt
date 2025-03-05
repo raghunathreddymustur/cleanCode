@@ -1,0 +1,42 @@
+File 1
+
+use if condition if (string.IsNullOrEmpty(day)) return false;
+
+use enum for days
+ 
+file 2
+
+reduce condtional statements
+
+file 3
+
+1.	Renamed the array l to cities for better readability.
+
+2.	Replaced the for loop with a foreach loop to iterate over the elements in the cities array.
+
+3.	Renamed the variable li to city to make it clear that it represents the current city being processed.
+ 
+file 4
+
+1.	Created a UserRoles class with a constant Admin to avoid using the magic number 8.
+
+2.	Updated the condition to use the UserRoles.Admin constant for better readability and maintainability.
+ 
+file 5
+
+1.	Renamed CarMake to Make.
+
+2.	Renamed CarModel to Model.
+
+3.	Renamed CarColor to Color.
+ 
+file 6
+
+1.	Renamed ymdstr to formattedDate to make the variable name more descriptive and meaningful.
+ 
+file 7
+
+1.	Renamed the variable breweryName to defaultBreweryName to make it clear that it holds the default value.
+
+2.	Used defaultBreweryName in the ternary operation to assign the appropriate value to breweryName.
+ 
