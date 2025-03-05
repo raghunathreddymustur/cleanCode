@@ -1,0 +1,30 @@
+File 1
+The side effect issue in the checkPassword method is related to the call to session.initialize(). 
+In this case, the checkPassword method not only checks the password but also initializes a session if the password is valid. This means that the method has two responsibilities: validating the password and initializing the session. This violates the Single Responsibility Principle (SRP) and can lead to side effects.
+ 
+File 2
+1.	Variable Naming: The variable temp can be renamed to nameParts to make it more descriptive.
+2.	Avoid Modifying Original Variable: The method modifies the original name variable, which can lead to unexpected side effects. It's better to use a new variable for the formatted string.
+ 
+File 3
+1.	Renamed the method IsDOMNodeNotPresent to IsDOMNodePresent to avoid double negatives and improve clarity.
+ 
+File 4
+1.	Changed the switch cases to use double quotes for string literals to ensure consistent data types.
+2.	Added a default case to handle unknown airplane types by throwing an InvalidOperationException.
+ 
+File 5
+1.	Use Polymorphism: Instead of using GetType and type casting, we can define a common interface or base class for Bicycle and Car with a method like TravelTo(Location location).
+2.	Handle Other Vehicle Types: Add a return statement or handle cases where the vehicle is neither a Bicycle nor a Car.
+ 
+File 6
+1. create different methods to handle if else cases
+ 
+File 7
+Singleton makes classes hard to test, if not required remove it
+ 
+File 8
+The method takes multiple parameters, making it less readable. Consider using an object to encapsulate menu properties.
+ 
+File 9
+db.Find(client) might return null, causing a NullReferenceException when calling IsActive(),  Add a null check before accessing IsActive()
